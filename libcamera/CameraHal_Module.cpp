@@ -410,7 +410,7 @@ int camera_get_camera_info(int camera_id, struct camera_info *info)
     else {
     LOGD("cameraHal Front %d",camera_id);
     info->facing = face_value;
-    info->orientation = 0;
+    info->orientation = 270;
     }
     LOGD("cameraHal %d",camera_id);
     return rv;
